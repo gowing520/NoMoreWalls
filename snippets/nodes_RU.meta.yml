@@ -1,1 +1,50 @@
-proxies: []
+proxies:
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ru-br-yandex
+  name: 🇷🇺RU_1|2.7MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 164.138.100.195
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e1570488-d499-40bb-b9d4-a69c25c4b5ca
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.9MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 213.219.212.24
+  servername: pro-ru-213.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce9b876-5e2e-4f5c-84af-40ea3a406428
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|1.8MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 213.219.212.24
+  servername: pro-ru-213.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecedc1d3-6853-4cfd-b65c-1753c9ad57b2
+  xudp: true

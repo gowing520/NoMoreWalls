@@ -39,3 +39,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_1|1.9MB/s
+  password: i8asar9lrxhavh38
+  port: 51435
+  server: 178.128.86.181
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬SG_2|2.1MB/s
+  network: xhttp
+  port: 2083
+  server: ehow.com
+  servername: www.myanmarthree.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c7b26ae-f0da-4ae7-8f70-a9553ea07458
+  xhttp-opts:
+    host: www.myanmarthree.site
+    mode: auto
+    path: /v2ray
+    x-padding-bytes: 100-1000

@@ -57,20 +57,126 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
+- name: '🇩🇪 t-me-V2RayyNGvpn 🇩🇪 #1'
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: voQTxwGh4I
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 🇩🇪DE_1|1.5MB/s
-  network: grpc
-  port: '443'
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.0MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw
-    short-id: '!!str 9329f8b5985b2a7d'
-  server: 46.8.209.56
-  servername: ads.x5.ru
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger16.myxasecure.space
+  servername: ger16.myxasecure.space
+  tls: true
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: your-custom-path
+  name: 🇩🇪DE_2|2.7MB/s
+  network: grpc
+  port: 6443
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: '!!str 2da4299da566b7'
+  server: 45.151.102.99
+  servername: maps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 87e2ee4a-eb7b-41e9-bcda-a849c1a5bb47
+  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|2.1MB/s
+  network: xhttp
+  port: '443'
+  server: 167.82.101.210
+  servername: global.fastly.coM.
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e63d7d-e6b9-42f9-a1ac-453bae2d9a1c
+  xhttp-opts:
+    host: farangis.global.ssl.fastly.neT.
+    mode: auto
+    path: /
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇩🇪DE_4|2.0MB/s
+  network: grpc
+  port: '16923'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82e0af2f-65db-4423-a952-2c60972b78e1
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ZCYpNgP7BsaN5WzpxhO8IXtfoHm2DWZuchCAl-ACmyI
+    short-id: '!!str 6e4a9c1f0b7d23a8'
+  server: rufl.mifbot.pro
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: eOV98nPiIYiVYcA7k6ddPqgEVfbrR3jJmIQTGquJUgY
+    short-id: '!!str ba9cad63871fb391'
+  server: 159.195.159.12
+  servername: dem.themesh.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49e8f20c-6a27-4637-9e20-e0ea18a75766
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_7|2.5MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: '!!str 992f3294e2336744'
+  server: desrv.noooo.win
+  servername: stats.vk-portal.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  xhttp-opts: {}
   xudp: true

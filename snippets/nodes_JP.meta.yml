@@ -30,18 +30,34 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|2.0MB/s
+- name: 🇯🇵JP_1|3.6MB/s
+  password: HK78346019
+  port: 443
+  server: golden-dane.rooster465.autos
+  skip-cert-verify: true
+  sni: golden-dane.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_2|3.3MB/s
+  password: HK78346019
+  port: 443
+  server: hardy-seahorse.rooster465.autos
+  skip-cert-verify: true
+  sni: hardy-seahorse.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_3|3.4MB/s
   password: AQ71834695
   port: 443
   server: integral-elf.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇯🇵JP_2|1.8MB/s
+- name: 🇯🇵JP_4|2.7MB/s
   password: AQ71834695
   port: 443
-  server: tops-marlin.rooster465.autos
+  server: concise-lacewing.rooster465.autos
   skip-cert-verify: true
-  sni: tops-marlin.rooster465.autos
+  sni: concise-lacewing.rooster465.autos
   type: trojan
   udp: true
