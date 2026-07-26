@@ -18,54 +18,54 @@ proxies:
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 43.207.96.164
+  port: 48738
+  server: 18.166.29.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.166.52.50
-  skip-cert-verify: false
+  port: 48738
+  server: 18.163.181.97
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 18.166.50.152
+  port: 32434
+  server: 18.166.29.72
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|2.5MB/s
+  name: 🇸🇬SG_1|2.1MB/s
   network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: '443'
-  server: 173.245.58.87
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /fp
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /in-pdr
+- name: 🇸🇬SG_2|3.3MB/s
+  network: ws
+  port: '2095'
+  server: www.wto.org
+  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_2|3.8MB/s
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: '20878'
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''

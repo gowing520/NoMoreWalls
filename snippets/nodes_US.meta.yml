@@ -11,53 +11,42 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 54.46.11.134
+  server: 18.163.181.97
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 43.207.96.164
+  port: 17005
+  server: 18.163.181.97
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 51396
-  server: 18.166.59.129
+  port: 35966
+  server: 35.77.116.7
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_1|1.7MB/s
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_1|2.0MB/s
+  network: ws
+  port: 2053
+  server: 31.57.46.165
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: 🇺🇸US_2|2.0MB/s
-  network: http
-  port: 52080
-  server: 154.36.128.61
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+  uuid: f05645e7-b789-48b9-a98f-434fa8035d5c
+  ws-opts:
+    path: /ws
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_3|2.3MB/s
+  name: 🇺🇸US_2|2.4MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -66,19 +55,7 @@ proxies:
   username: dongtaiwang.com
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_5|3.5MB/s
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: '20450'
-  server: us3.dexlos.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_6|4.8MB/s
+  name: 🇺🇸US_3|2.1MB/s
   obfs: salamander
   obfs-password: xK9mN2pLq5vR8wB3
   password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
@@ -88,47 +65,9 @@ proxies:
   sni: us2.dexlos.com
   type: hysteria2
   up: ''
-- cipher: aes-128-gcm
-  name: 🇺🇸US_7|2.2MB/s
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: '40031'
-  server: permission_level_01.unclemanco.com
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_8|2.6MB/s
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    short-id: '!!str '
-  server: 162.33.177.100
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  xudp: true
-- name: 🇺🇸US_9|1.7MB/s
-  password: ''
-  port: '9002'
-  server: 156.146.59.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_10|2.1MB/s
-  password: ''
-  port: '9002'
-  server: 156.146.59.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_11|3.2MB/s
+  name: 🇺🇸US_4|2.6MB/s
   obfs: ''
   obfs-password: ''
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
@@ -138,18 +77,75 @@ proxies:
   sni: taga7.api3-max.ru
   type: hysteria2
   up: ''
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_12|4.7MB/s
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: '20378'
-  server: us2.dexlos.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_5|2.6MB/s
+  network: xhttp
+  port: '443'
+  server: 31.57.46.165
+  tls: true
+  type: vless
+  udp: true
+  uuid: f05645e7-b789-48b9-a98f-434fa8035d5c
+  xhttp-opts:
+    mode: auto
+    path: /NormanVPN
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_6|2.1MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 26h0anruZ65ts2A7DAlT9dGdv7iZOQ6RZAr3xnAxa1w
+    short-id: '!!str abcd'
+  server: 188.127.229.68
+  servername: us.santexnika24.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  name: 🇺🇸US_7|2.3MB/s
+  network: xhttp
+  port: '40003'
+  reality-opts:
+    public-key: Dl4-nKAkksLHmX2yR0LWAzyFBjIj1W10R4OxHKMX2AI
+    short-id: '!!str '
+  server: 45.9.13.238
+  servername: cdn4-81.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 259ceb97-b0f4-46cd-86ba-7d28cf9e8224
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_8|1.5MB/s
+  network: ws
+  port: '443'
+  server: 3x-ui-production-6107.up.railway.app
+  servername: 3x-ui-production-6107.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82c6f48f-e243-45c6-bf6f-34640e80ace2
+  ws-opts:
+    headers:
+      Host: 3x-ui-production-6107.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /in1
+  xudp: true
 - name: US_speednode_0121
   network: ws
   port: 443
