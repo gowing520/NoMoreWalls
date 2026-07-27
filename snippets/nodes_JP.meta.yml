@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇯🇵JP_6|2.3MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 6102
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_7|3.4MB/s
+- name: 日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_8|2.8MB/s
+- name: 🇯🇵JP_2|2.1MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -30,35 +30,17 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_1|4.9MB/s
-  network: grpc
-  port: 10035
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|3.9MB/s
+  network: tcp
+  port: 34761
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp5-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: vpyTFpAW_aDyAozpeWyB4Q5orhkbdxZ82V0ZPt7A9U8
+    short-id: '!!str ad568d7e89114c24'
+  server: dsm7.473221.xyz
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_2|5.9MB/s
-  network: grpc
-  port: 10034
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
+  uuid: 9a15843f-c194-4625-b058-29833674acc0
