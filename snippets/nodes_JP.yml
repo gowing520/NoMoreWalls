@@ -1,56 +1,25 @@
 proxies:
-- name: 日本|@ripaojiedian
+- name: 🇯🇵JP_6|2.3MB/s
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 43.198.210.48
+  port: 6102
+  server: 18.183.93.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 13.158.67.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本3|@ripaojiedian
+- name: 🇯🇵JP_7|3.4MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 18.163.181.97
+  server: 16.162.91.50
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|3.6MB/s
-  password: HK78346019
-  port: 443
-  server: golden-dane.rooster465.autos
-  skip-cert-verify: true
-  sni: golden-dane.rooster465.autos
+- name: 🇯🇵JP_8|2.8MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 16.163.57.145
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 🇯🇵JP_2|3.3MB/s
-  password: HK78346019
-  port: 443
-  server: hardy-seahorse.rooster465.autos
-  skip-cert-verify: true
-  sni: hardy-seahorse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_3|3.4MB/s
-  password: AQ71834695
-  port: 443
-  server: integral-elf.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_4|2.7MB/s
-  password: AQ71834695
-  port: 443
-  server: concise-lacewing.rooster465.autos
-  skip-cert-verify: true
-  sni: concise-lacewing.rooster465.autos
-  type: trojan
-  udp: true

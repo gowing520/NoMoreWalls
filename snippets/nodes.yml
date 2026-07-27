@@ -104,67 +104,67 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 🇭🇰HK_3|3.9MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 18.166.29.24
+  port: 47867
+  server: 18.166.67.128
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK_4|2.8MB/s
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 54.46.125.192
+  port: 7674
+  server: 16.162.119.232
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.163.144.226
+  port: 39412
+  server: 43.198.187.250
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 日本|@ripaojiedian
+- name: 🇯🇵JP_6|2.3MB/s
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 43.198.210.48
+  port: 6102
+  server: 18.183.93.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 13.158.67.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本3|@ripaojiedian
+- name: 🇯🇵JP_7|3.4MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 18.163.181.97
+  server: 16.162.91.50
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡|@ripaojiedian
+- name: 🇯🇵JP_8|2.8MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.166.29.24
+  port: 40138
+  server: 16.163.57.145
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬SG_7|3.8MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.166.67.128
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡2|@ripaojiedian
+- name: 🇸🇬SG_8|3.6MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.163.181.97
+  port: 6357
+  server: 16.162.91.50
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -176,27 +176,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 18.163.181.97
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 美国2|@ripaojiedian
+- name: 🇺🇸US_4|2.1MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
-  server: 18.163.181.97
+  server: 18.163.123.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸US_5|2.4MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 49277
+  server: 18.163.123.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 35.77.116.7
+  port: 34638
+  server: 18.183.93.4
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -210,66 +210,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵JP_1|3.6MB/s
-  password: HK78346019
-  port: 443
-  server: golden-dane.rooster465.autos
-  skip-cert-verify: true
-  sni: golden-dane.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_2|3.3MB/s
-  password: HK78346019
-  port: 443
-  server: hardy-seahorse.rooster465.autos
-  skip-cert-verify: true
-  sni: hardy-seahorse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_3|3.4MB/s
-  password: AQ71834695
-  port: 443
-  server: integral-elf.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_4|2.7MB/s
-  password: AQ71834695
-  port: 443
-  server: concise-lacewing.rooster465.autos
-  skip-cert-verify: true
-  sni: concise-lacewing.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_1|2.6MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_1|1.9MB/s
-  password: i8asar9lrxhavh38
-  port: 51435
-  server: 178.128.86.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼TW_1|3.5MB/s
-  network: ws
-  port: 2096
-  server: twdx6.baidupi.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /assets/images/
 - name: NL_speednode_0006
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323

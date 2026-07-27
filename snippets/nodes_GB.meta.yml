@@ -9,21 +9,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇬🇧GB_1|2.0MB/s
-  network: ws
-  port: '2096'
-  server: cd18.almas-cloud.ir
-  type: vless
-  udp: true
-  uuid: 94d1b793-0670-405a-af31-d1270b582427
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: ''
-  xudp: true
 - client-fingerprint: chrome
   name: GB_speednode_0003
   packet-encoding: xudp
