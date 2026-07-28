@@ -1,9 +1,78 @@
 proxies:
-- name: 🇰🇷KR_1|3.1MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: r.KR1.cat.bilibili.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_1|1.8MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '917'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_2|2.4MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '9035'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_3|2.0MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '9019'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_4|2.0MB/s
+  password: ayucl243113
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '921'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_5|3.3MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '810'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_6|2.5MB/s
+  password: ayucew2
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '9001'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷KR_7|1.7MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: '920'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
   udp: true

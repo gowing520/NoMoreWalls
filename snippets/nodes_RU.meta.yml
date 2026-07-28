@@ -1,19 +1,35 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: edge
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.5MB/s
-  network: tcp
+  grpc-opts:
+    grpc-service-name: cdn-spb.buildsnow.top
+  name: 🇷🇺RU_1|3.6MB/s
+  network: grpc
   port: '443'
   reality-opts:
-    public-key: ZCYpNgP7BsaN5WzpxhO8IXtfoHm2DWZuchCAl-ACmyI
-    short-id: '!!str 6e4a9c1f0b7d23a8'
-  server: rufl.mifbot.pro
-  servername: api-maps.yandex.ru
+    public-key: SthWDW71MJzhV10XWlbGwdc0BJ6W1ILfny_xn2D0e1A
+    short-id: '!!str 0ac1b591aafcfa51'
+  server: cdn-spb.buildsnow.top
+  servername: cdn-spb.buildsnow.top
   tls: true
   type: vless
   udp: true
-  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
+  xudp: true
+- encryption: none
+  name: 🇷🇺RU_2|2.0MB/s
+  network: ws
+  port: '8880'
+  server: 194.67.102.65
+  type: vless
+  udp: true
+  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
+  ws-opts:
+    headers:
+      Host: rutube.ummapeople.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /rutube
   xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision

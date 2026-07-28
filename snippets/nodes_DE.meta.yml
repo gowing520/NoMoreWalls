@@ -59,145 +59,113 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: US_speednode_0072
+- client-fingerprint: firefox
+  name: 🇩🇪DE_1|1.8MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 8gaAxOxMSBZ38lOv-YoPoVmXX2qTx30Frh1uI5AvhBg
+    short-id: '!!str 5e05abb57edc0740'
+  server: s1.monitoring-msk.online
+  servername: s1.monitoring-msk.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e82460-9a6f-4a1d-b455-d96e036eee4a
+  xhttp-opts:
+    host: s1.monitoring-msk.online
+    mode: auto
+    path: /api/v2/config/sync
+    x-padding-bytes: 100-1000
+- client-fingerprint: firefox
+  name: 🇩🇪DE_2|2.0MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 8gaAxOxMSBZ38lOv-YoPoVmXX2qTx30Frh1uI5AvhBg
+    short-id: '!!str 81faade1f37c6513'
+  server: s2.monitoring-msk.online
+  servername: s2.monitoring-msk.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e82460-9a6f-4a1d-b455-d96e036eee4a
+  xhttp-opts:
+    host: s2.monitoring-msk.online
+    mode: auto
+    path: /api/v2/config/sync
+    x-padding-bytes: 100-1000
+- name: 🇩🇪DE_3|3.6MB/s
   network: ws
-  port: 80
-  server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: false
+  port: 2082
+  server: 104.25.15.14
   tls: false
   type: vless
   udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  uuid: da0bf72f-445c-45df-8fef-e472f8840f82
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
+      Host: safechannel.samisaf.shop
     path: /
+    v2ray-http-upgrade: true
 - encryption: none
-  name: 🇩🇪DE_2|2.4MB/s
+  name: 🇩🇪DE_4|1.8MB/s
   network: ws
   port: '80'
-  server: 167.82.0.17
+  server: ordakbot.ir
+  servername: z-e-u-s-panel-m0yjjp.zeus-12g9x8.workers.dev
   type: vless
   udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  uuid: 50414e45-4c5f-5a45-5553-6d24857831b8
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: ''
+      Host: z-e-u-s-panel-m0yjjp.zeus-12g9x8.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /stream/PANEL_ZEUS/6d24857831b8?loc=0
   xudp: true
 - encryption: none
-  name: 🇩🇪DE_3|2.2MB/s
+  name: 🇩🇪DE_5|2.5MB/s
   network: ws
-  port: '80'
-  server: 199.232.170.246
+  port: '2052'
+  server: n8.relvix.ir
   type: vless
   udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  uuid: 5cdcbd83-0742-4f45-a098-02340aa18f2b
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|2.3MB/s
-  network: ws
-  port: '443'
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92516598-6427-4db1-b627-eea0365bdc8d
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: ''
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|2.0MB/s
-  network: ws
-  port: '80'
-  server: 151.101.193.54
-  type: vless
-  udp: true
-  uuid: c32c0a52-8dad-44b9-a376-0a9fad55e1fe
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: ''
-  xudp: true
-- name: 🇩🇪DE_6|3.2MB/s
-  password: ''
-  port: '1080'
-  server: 152.89.104.11
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🇩🇪DE_8|2.2MB/s
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
+      Host: n5.droonix.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
     path: /
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_10|1.6MB/s
-  obfs: salamander
-  obfs-password: detgimgm8qh8i2g2
-  password: 4z2oldt85p494bgb
-  port: '52023'
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 🇩🇪DE_11|3.1MB/s
-  network: grpc
-  port: '16923'
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 89.222.123.209
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 156d4820-1ec2-4491-a644-36b1941d4d57
   xudp: true
-- client-fingerprint: firefox
+- name: 🇩🇪DE_6|2.8MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: qq
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_12|2.4MB/s
-  network: raw
+  name: 🇩🇪DE_7|3.2MB/s
+  network: xhttp
   port: '443'
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.201
-  servername: cdn9-33.yahoo.com
+  server: top1272307106.mwscdn.ru
+  servername: top1272307106.mwscdn.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+  uuid: 140f954a-7ab9-437c-be3a-248c269117f1
+  xhttp-opts:
+    mode: auto
+    path: /xhttppath
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_9|2.6MB/s
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 130.61.36.133
+  type: ss
+  udp: true
