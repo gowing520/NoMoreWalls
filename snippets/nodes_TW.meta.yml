@@ -1,10 +1,8 @@
 proxies:
-- name: 🇹🇼TW_2|2.7MB/s
+- name: TW_speednode_0077
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   udp: true

@@ -1,46 +1,29 @@
 proxies:
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: cdn-spb.buildsnow.top
-  name: 🇷🇺RU_1|3.6MB/s
-  network: grpc
-  port: '443'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.5MB/s
+  port: 443
   reality-opts:
-    public-key: SthWDW71MJzhV10XWlbGwdc0BJ6W1ILfny_xn2D0e1A
-    short-id: '!!str 0ac1b591aafcfa51'
-  server: cdn-spb.buildsnow.top
-  servername: cdn-spb.buildsnow.top
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str 93ae75024604f796'
+  server: ru.rush-server.com
+  servername: findmypackets.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
-  xudp: true
-- encryption: none
-  name: 🇷🇺RU_2|2.0MB/s
+  uuid: fe444095-ab4b-45b5-8f25-2c2576fb1968
+- name: RU_speednode_0076
   network: ws
-  port: '8880'
+  port: 8880
   server: 194.67.102.65
+  servername: rutube.ummapeople.online
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
   uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
   ws-opts:
     headers:
       Host: rutube.ummapeople.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /rutube
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RU_speednode_0067
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: ruded1.onlinestreamself.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
