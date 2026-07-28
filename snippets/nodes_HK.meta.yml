@@ -42,36 +42,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_5|2.0MB/s
-  network: ws
-  port: '33409'
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_4|3.4MB/s
-  network: tcp
-  port: '34819'
-  reality-opts:
-    public-key: 3tM5udzQZi_NFNd27D-YJ03W1nlvpHEm-dUdr7G39gg
-    short-id: '!!str 0178ec03'
-  server: dsm2.473221.xyz
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a15843f-c194-4625-b058-29833674acc0
-  xudp: true
