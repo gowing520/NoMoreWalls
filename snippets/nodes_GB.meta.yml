@@ -1,63 +1,45 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: 🇬🇧GB_1|1.8MB/s
-  network: grpc
-  port: 46784
-  server: t1.hhaakk9922.com
-  servername: t1.hhaakk9922.com
-  tls: true
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇬🇧GB_1|3.4MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.176.133.10
+  skip-cert-verify: true
+  sni: https://t.me/proxyshareCN
+  type: hysteria2
+- name: GB_speednode_0026
+  port: 2090
+  server: 31.56.227.48
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇬🇧GB_2|1.9MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: '!!str 5c766813929a1fdd'
-  server: 31.76.122.42
-  servername: play.overcloud.cloud
-  tls: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: GB_speednode_0027
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  servername: vms.lifetime02.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 10eabb0e-25cc-4210-82c9-f05d964572d8
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|2.1MB/s
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /
+- client-fingerprint: firefox
+  name: GB_speednode_0028
   network: tcp
-  port: '55880'
+  port: 443
   reality-opts:
-    public-key: BibMDEe05xV7nGF6eUhylxgry-JoWCCwrGdyAasOuyU
-    short-id: '!!str 69b0ac6c'
-  server: ly.gaaaa015.top
-  servername: www.bilibili.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7552bb29-f54e-4b4d-ac51-998611cf7462
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: GB_speednode_0010
-  network: tcp
-  port: 49000
-  reality-opts:
-    public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
-  server: defast.mifbot.pro
-  servername: git.sly.team
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
