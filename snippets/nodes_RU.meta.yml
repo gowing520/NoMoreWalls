@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0124
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU_speednode_0106
