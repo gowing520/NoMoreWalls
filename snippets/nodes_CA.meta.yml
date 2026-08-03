@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  encryption: none
+  name: 🇨🇦CA_1|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: saas.sin.fan
+  servername: do-tor1.862400.xyz
+  tls: true
+  type: vless
+  uuid: 5ca3a621-539f-490a-bb11-8c8ffffdd138
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: do-tor1.862400.xyz
+    max-early-data: 2048
+    path: /announcement
