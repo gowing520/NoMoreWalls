@@ -1,26 +1,19 @@
 proxies:
-- encryption: none
-  name: 🇫🇷FR_1|2.8MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.7MB/s
   network: tcp
-  port: '22222'
-  server: 51.45.45.205
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: '!!str 0befa76540b5db79'
+  server: 193.177.0.251
+  servername: fr.bvps.cloud
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- name: 🇫🇷FR_2|1.6MB/s
-  port: 8888
-  server: 37.59.125.131
-  type: http
-- client-fingerprint: chrome
-  name: 🇫🇷FR_3|3.3MB/s
-  network: raw
-  password: QV31589740
-  port: '443'
-  server: great-krill.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - name: FR_speednode_0006
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443

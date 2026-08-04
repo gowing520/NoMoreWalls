@@ -2,8 +2,8 @@ proxies:
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 18.166.178.12
+  port: 32434
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -11,49 +11,57 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
-  server: 95.40.107.76
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0009
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+  port: 45744
+  server: 16.163.150.174
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
-- name: 🇸🇬SG_1|1.3MB/s
+- alpn:
+  - http/1.1
+  name: 🇸🇬SG_1|3.4MB/s
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  password: MiTiVPN
   port: 443
-  server: 172.64.146.75
+  server: 104.18.36.192
   skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇸🇬SG_2|2.5MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.24.245
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 🇸🇬SG_3|1.1MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: sacred-treefrog.rooster465.autos
+      Host: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬SG_2|1.0MB/s
+  password: '!!str 111'
+  port: 20000
+  server: 101.33.74.115
   skip-cert-verify: true
-  sni: sacred-treefrog.rooster465.autos
-  type: trojan
+  type: socks5
+  udp: true
+  username: '111'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_3|3.9MB/s
+  network: xhttp
+  port: '443'
+  server: mfa.gov.ua
+  servername: xhttp7.azadnet5000.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  xhttp-opts:
+    host: xhttp7.azadnet5000.dpdns.org
+    mode: stream-one
+    path: /
+  xudp: true

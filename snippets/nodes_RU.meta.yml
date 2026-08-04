@@ -1,13 +1,15 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|1.3MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  name: 🇷🇺RU_1|3.4MB/s
+  network: xhttp
+  port: 443
+  server: 155.212.222.251
+  servername: ru.node.sillyvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+  xhttp-opts:
+    host: ru.node.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
