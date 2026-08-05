@@ -1,37 +1,4 @@
 proxies:
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
 - name: 法国
   password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
   port: 35000
@@ -70,24 +37,6 @@ proxies:
   sni: https://t.me/clashv8🇨🇳
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|1.6MB/s
-  network: xhttp
-  port: '443'
-  server: 199.232.239.244
-  servername: accounts.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
-  xhttp-opts:
-    host: ovd10.global.ssl.fastly.net
-    mode: packet-up
-    path: /
-  xudp: true
 - name: FR_speednode_0003
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
@@ -97,3 +46,35 @@ proxies:
   type: http
   udp: true
   username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+- name: 🇫🇷FR_2|1.2MB/s
+  password: f7d95364-607b-11ee-93af-f23c91369f2d
+  port: '443'
+  server: 257fc07f-tcxds0-tv7zgh-1ijh5.fr.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: f7d95364-607b-11ee-93af-f23c91369f2d
+- name: 🇫🇷FR_3|1.1MB/s
+  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  port: 443
+  server: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
+  skip-cert-verify: true
+  sni: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
+  tls: true
+  type: http
+  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- name: 🇫🇷FR_4|1.6MB/s
+  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  port: 443
+  server: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
+  sni: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
+  tls: true
+  type: http
+  username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+- name: FR_speednode_0002
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

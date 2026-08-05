@@ -1,14 +1,4 @@
 proxies:
-- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
 - name: 🇪🇪爱沙尼亚
   obfs: salamander
   obfs-password: iknjsvsjagi449mm
@@ -18,16 +8,14 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|2.2MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '!!str 64c1fe36c7846400'
-  server: 185.215.184.31
-  servername: anyfile2file.com
-  tls: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇪🇪EE_1|3.0MB/s
+  network: grpc
+  port: '8443'
+  server: 95.85.228.161
   type: vless
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
+  udp: true
+  uuid: 7e8f7489-e65f-4be6-93ed-867a74ec6759
+  xudp: true

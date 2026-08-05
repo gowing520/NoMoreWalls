@@ -89,148 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: 'B - 🇺🇸 US 32 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 34 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 35 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 36 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 37 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 42 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 46 TG: @nodpai'
-  network: ws
-  port: 52620
-  server: 38.60.176.80
-  type: vmess
-  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
-  ws-opts:
-    path: /8704a4ad
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -249,32 +107,32 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 50887
+  port: 17111
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK_6|2.1MB/s
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.166.225.67
+  port: 50115
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 🇭🇰HK_7|1.8MB/s
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 16.163.150.174
+  port: 11231
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 18.166.225.67
+  port: 4099
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -282,7 +140,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
-  server: 18.163.100.58
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -291,13 +149,13 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
   server: 18.163.100.58
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 32434
+  port: 51396
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -307,14 +165,14 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: 🇸🇬SG_3|4.3MB/s
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.163.150.174
+  port: 26704
+  server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -334,11 +192,11 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: 🇺🇸US_17|1.4MB/s
   network: tcp
   password: BxceQaOe
-  port: 15775
-  server: 18.163.193.0
+  port: 53001
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -352,70 +210,100 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: 🇳🇱NL_2|1.7MB/s
+- name: 🇩🇪DE_6|1.3MB/s
   network: ws
-  password: MITIVPN
+  password: ersi13mjahoao8e6
   port: 443
-  server: 188.114.98.0
+  server: hikvision-plus.com
   skip-cert-verify: true
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_1|1.9MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.98.215
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: ramz.xuithree.dpdns.org
   type: trojan
   ws-opts:
     headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰HK_1|4.2MB/s
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: '19001'
+  server: ss.047.node-for-bigairport.win
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇨SC_1|3.7MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9022
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_1|4.7MB/s
+  password: fjlfjafl231303831
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 1313
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_3|3.2MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 911
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰HK_4|5.4MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_4|2.5MB/s
+  password: ay2loud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 906
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇨SC_2|5.2MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_2|3.3MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇸🇬SG_1|4.4MB/s
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇦UA_1|1.2MB/s
-  network: raw
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: '20066'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_5|1.8MB/s
+  name: 🇩🇪DE_9|1.9MB/s
   network: ws
   password: ersi13mjahoao8e6
   port: '443'
@@ -429,43 +317,54 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /dksk
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_6|1.7MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: hikvision-plus.com
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_3|6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.227.228
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /dksk
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_7|2.4MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_10|3.4MB/s
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.229.160
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_4|1.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.61.13.49
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /dksk
-- client-fingerprint: chrome
-  name: 🇹🇼TW_1|3.4MB/s
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
+  type: ss
+  udp: true
+- name: 🇺🇸US_8|2.3MB/s
   network: tcp
+  password: 5CRphqBLXI
+  port: 55604
+  server: 216.173.64.72
+  sni: b32-11.cmj0502.cn
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷BR_2|1.0MB/s
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.177.94
+  type: ss
+- name: 🇺🇸US_11|1.9MB/s
+  password: UaQmDQajuW
+  port: 55523
+  server: 185.132.54.106
+  sni: b32-10.cmj0502.cn
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼TW_1|1.6MB/s
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: '39221'
   server: speed-01.aliyun-web-tracker.cn
@@ -473,30 +372,54 @@ proxies:
   sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_14|2.8MB/s
-  network: ws
-  port: 23142
-  server: la.2555555.xyz
-  servername: la.2555555.xyz
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 🇭🇰HK_8|2.3MB/s
+  network: grpc
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
+  port: '443'
+  server: kaizen-hk-2.gocmydns.com
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: www.zueuqnpjvcllc.co
+  type: trojan
   udp: true
-  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_14|1.8MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: '443'
+  server: nexigen.pro
+  skip-cert-verify: false
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: la.2555555.xyz
-    path: /pfrq
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: ❓Other_1|1.8MB/s
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: '59319'
-  server: 137.131.181.254
-  type: ss
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /dksk
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_15|1.3MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: '443'
+  server: undef.network
+  skip-cert-verify: false
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /dksk
 - name: HK_speednode_0008
   password: ND91608427
   port: 443
