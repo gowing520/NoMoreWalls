@@ -21,7 +21,17 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|2.3MB/s
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
+    short-id: '!!str a1b2c4d4a1b2c5d5'
+  server: 85.209.135.10
+  servername: www.sciencedirect.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25284d30-b4e6-4f86-b214-a78d4365ed05

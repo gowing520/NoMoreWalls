@@ -29,17 +29,15 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vlgrpc
-  name: 🇸🇪SE_1|4.1MB/s
-  network: grpc
-  port: '443'
-  server: srv-5728.atlanta-games.com
-  servername: srv-5728.atlanta-games.com
+- client-fingerprint: firefox
+  name: 🇸🇪SE_1|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: 2.26.79.57
+  servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 843b7f51-16cc-42ca-a047-8d32879ff1e5
-  xudp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e

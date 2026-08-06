@@ -38,13 +38,6 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- name: 🇺🇸134686 | ⚡️Telegram = t.me/S...
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: soskeynets.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -69,30 +62,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US_1|4.2MB/s
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.7MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 53199
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true
 - auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: 🇺🇸US_3|3.8MB/s
+  name: 🇺🇸US_1|4.2MB/s
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 172.245.233.237
@@ -100,183 +71,202 @@ proxies:
   sni: hopp-us.yyuyy.com
   type: hysteria2
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_4|2.3MB/s
+  name: 🇺🇸US_2|3.5MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 🇺🇸US_5|2.7MB/s
+- name: 🇺🇸US_3|3.1MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17963
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_4|1016KB/s
+  network: tcp
+  port: '443'
+  server: usamd1.95318.cf
+  servername: usamd1.95318.cf
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb968e21-757f-4c99-afd7-c936e67e1766
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|2.2MB/s
+  network: ws
+  port: '443'
+  server: 104.16.106.217
+  servername: dr.evanjson.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95470b1b-2164-4243-b977-ab6784f468e6
+  ws-opts:
+    headers:
+      Host: dr.evanjson.sbs
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /uhznws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_6|2.1MB/s
+  network: tcp
+  port: 443
+  server: usamd2.95318.cf
+  servername: usamd2.95318.cf
+  tls: true
+  type: vless
+  uuid: de515b65-ad6f-4dfa-b3a2-405a7eef71be
+- client-fingerprint: random
+  name: 🇺🇸US_7|4.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: saas.sin.fan
+  servername: us-lax.862400.xyz
+  tls: true
+  type: vless
+  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: us-lax.862400.xyz
+    max-early-data: 2048
+    path: /announcement
+- cipher: aes-256-cfb
+  name: 🇺🇸US_8|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 100.31.139.112
+  type: ss
+  udp: true
+- name: 🇺🇸US_9|2.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|4.3MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_6|2.7MB/s
+- name: 🇺🇸US_11|3.7MB/s
   password: None
   port: 9002
-  server: 156.146.59.19
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_7|3.1MB/s
+- name: 🇺🇸US_12|3.1MB/s
   port: 9002
-  server: 138.199.35.208
+  server: 156.146.59.49
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_8|1.6MB/s
+- name: 🇺🇸US_13|2.8MB/s
+  password: ''
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 🇺🇸US_9|4.1MB/s
+  username: ''
+- name: 🇺🇸US_14|2.4MB/s
   password: None
   port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_15|3.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_16|1.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: line-vpn-production-2a4e.up.railway.app
+  servername: line-vpn-production-2a4e.up.railway.app
+  tls: true
+  type: vless
+  uuid: 5c8ffc0e-a044-cc52-3b60-4f3b15d9b6d3
+  ws-opts:
+    headers:
+      Host: line-vpn-production-2a4e.up.railway.app
+    path: /ws/5c8ffc0e-a044-cc52-3b60-4f3b15d9b6d3
+- client-fingerprint: chrome
+  name: 🇺🇸US_17|2.8MB/s
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '53199'
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  name: 🇺🇸US_18|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: da86df16-a80c-0032-90be-3e174fe0076d
+  xudp: true
+- name: 🇺🇸US_19|1.8MB/s
+  password: ''
+  port: '9002'
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_20|4.1MB/s
+  password: ''
+  port: '9002'
   server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_10|1.7MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
   username: ''
-- name: 🇺🇸US_11|2.4MB/s
-  port: 9002
-  server: 156.146.59.9
+- name: 🇺🇸US_21|1021KB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.15
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|2.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|3.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
-  name: 🇺🇸US_14|1.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_15|2.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node18.mxvpn.dev
-  servername: node18.mxvpn.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_16|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57b575f7-f738-0032-8151-e6bacc8c6717
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_17|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: pro-se.emrata.top
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57b575f7-f738-42c3-8151-e6bacc8c6717
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_18|3.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-0032-948c-b22e01ae3133
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇺🇸US_19|1.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0021
-  network: tcp
-  port: 40724
-  reality-opts:
-    public-key: k7iIWZPJ27YpA5ilhmAiRQP1P6fNWzQIIJNTYCmV6xw
-    short-id: '!!str 0d17feea'
-  server: evacuee.papstore.xyz
-  servername: www.e-japannavi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
+  username: ''
 - name: US_speednode_0022
   port: 9002
   server: 138.199.35.214
