@@ -1,4 +1,12 @@
 proxies:
+- name: 🇯🇵JP
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
+  skip-cert-verify: true
+  sni: freedom.chenlan.top
+  tls: false
+  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -23,32 +31,28 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|6.2MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17962
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|6.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.115.57.197
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0021
-  network: tcp
-  port: 40724
-  reality-opts:
-    public-key: k7iIWZPJ27YpA5ilhmAiRQP1P6fNWzQIIJNTYCmV6xw
-    short-id: '!!str 0d17feea'
-  server: evacuee.papstore.xyz
-  servername: www.e-japannavi.com
-  skip-cert-verify: false
+- client-fingerprint: random
+  name: 🇯🇵JP_2|1.2MB/s
+  network: ws
+  port: '443'
+  server: freev2.cloudflare.182682.xyz
+  servername: jp-osa.862400.xyz
   tls: true
   type: vless
   udp: true
-  uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
-- name: 🇯🇵JP_3|1.7MB/s
-  password: kZqh4Dk9rrkxfI4B
-  port: 8888
-  server: 45.192.198.137
-  type: socks5
-  username: u1179940355
+  uuid: e23fad70-be58-4dea-b6c6-70f94b3abdd7
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /announcement
+  xudp: true

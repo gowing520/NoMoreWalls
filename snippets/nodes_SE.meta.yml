@@ -21,23 +21,3 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 👁️‍🗨️16@SHAHSERVER1
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
-  name: 🇸🇪SE_1|2.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-  server: 2.26.79.57
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
