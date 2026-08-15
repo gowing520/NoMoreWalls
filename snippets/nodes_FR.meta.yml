@@ -21,12 +21,6 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|3.0MB/s
-  password: FH72359861
-  port: 443
-  server: correct-pony.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
 - name: FR_speednode_0002
   port: 23856
   server: 51.159.225.196
