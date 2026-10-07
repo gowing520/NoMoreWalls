@@ -9,14 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🐞96@oneclickvpnkeys
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -27,46 +19,51 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|3.4MB/s
-  password: amazonskr05
+- name: 😊14@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: 3.67.197.81
-  type: ss
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 🇩🇪DE_1|1.1MB/s
+  network: ws
+  port: 2052
+  server: 172.64.229.129
+  tls: false
+  type: vless
   udp: true
-- name: 🇩🇪DE_2|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|2.9MB/s
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|1.4MB/s
-  port: 443
-  server: 194.135.33.185
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: qq
-  encryption: none
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  ws-opts:
+    headers:
+      Host: eu02.123450908.xyz
+    path: /rain1226
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|1.8MB/s
+  name: 🇩🇪DE_2|3.7MB/s
   network: tcp
-  port: '443'
+  port: 59719
   reality-opts:
-    public-key: 9Pg_ecqFPMfzOvJrmxE05FmLUDXbY9Mo1r2MgxFzYEQ
-    short-id: '!!str 4b523a98e1bbd15b'
-  server: 144.31.241.80
-  servername: po.skfv-mirror.ru
+    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
+    short-id: '!!str 6e6f9fa5decc02'
+  server: 189.24.108.152
+  servername: www.sony.lu
   tls: true
   type: vless
   udp: true
-  uuid: 86037609-3790-4901-bd2f-c698092fb1fc
+  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|1.1MB/s
+  network: tcp
+  port: '443'
+  server: 31.131.251.17
+  servername: quatro.lmstream.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ea8b000-58ce-0050-b108-989dd4f248f1
   xudp: true
